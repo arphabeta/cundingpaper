@@ -1,0 +1,46 @@
+@import url(common.css);
+
+#section{
+  width:1200px;
+  height:600px;
+  background: #f6f6f6;
+  margin-left:180px;
+  margin-bottom:50px;
+}
+.section1, .section2{
+  padding: 20px 0 0 20px;
+}
+/*-- page introduce --*/
+.section1 h3{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size:30px;
+  margin-bottom:10px;
+}
+.section1 p{
+  font-family: nanumgothic;
+  font-size:15px;
+}
+.section1 strong{
+  font-size:18px;
+  font-style:italic;
+}
+
+/*-- contact --*/
+.section2 h3{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size:30px;
+  margin:50px 0 10px 0;
+}
+.section2 p{
+  font-family: nanumgothic;
+  font-size:15px;
+  line-height: 25px;
+}
+.section2_img1{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  background: url(../image/fantasy_kokopelli.png);
+  background-size:100%;
+  margin-bottom: 20px;
+}

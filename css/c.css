@@ -1,0 +1,12 @@
+@import url(common.css);
+
+#section{
+  width:1200px;
+  height:600px;
+  background: #f6f6f6;
+  margin-left:180px;
+  margin-bottom:50px;
+}
+.section1, .section2{
+  padding: 20px 0 0 20px;
+}

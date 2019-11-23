@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/js.css">
+</head>
+<body>
+
+<!-- --------- Header --------- -->
+<header id="header">
+  <h1><a href="index.html">cunding paper</a></h1>
+  <h2>: coding cunning we can!</h2>
+  <div class="top_menu">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="js.html" class="active">javascript</a></li>
+      <li><a href="jquery.html">jquery</a></li>
+      <li><a href="python.html">python</a></li>
+      <li><a href="c.html">c</a></li>
+      <li><a href="java.html">java</a></li>
+    </ul>
+  </div>
+</header>
+<!-- --------- Section --------- -->
+<section id="section">
+<div class="section1">
+ <h3>javascript</h3>
+ <p>원하는 javascript 문법을 선택해주세요.</p>
+ <br><br>
+ <select id="selectBox" name="selectBox">
+  <option value="option0" selected="selected">원하는 문법 선택</option>
+  <option value="option1">if문</option>
+  <option value="option2">중첩 if문</option>
+  <option value="option3">else문</option>
+  <option value="option4">else if문</option>
+  <option value="option5">while문</option>
+  <option value="option6">switch문</option>
+  <option value="option7">for문</option>
+  <option value="option8">중첩 for문</option>
+ </select>
+</div>
+
+<div class="section2">
+  <div class="if">
+    <div class="func1">
+      <p>if(){</p>
+      <br>
+      <p>}</p>
+    </div>
+    <div class="func2">
+      <p>if(조건식){</p>
+      <p>실행문;</p>
+      <p>}</p>
+    </div>
+  </div>
+
+  <div class="ifs">
+    <div class="func1">
+      <p>if(){</p>
+        <p>if(){	</p>
+      	<p>;</p>
+        <p>}</p>
+      <p>} </p>
+    </div>
+    <div class="func2">
+      <p>if(조건식1){</p>
+        <p>if(조건식2){	</p>
+      	<p>실행문;</p>
+        <p>}</p>
+      <p>} </p>
+    </div>
+  </div>
+
+  <div class="else">
+    <div class="func1">
+      <p>if(){</p>
+      <p>;</p>
+      <p>}else{</p>
+      <p>;</p>
+      <p>} </p>
+    </div>
+    <div class="func2">
+      <p>if(조건식){</p>
+      <p>실행문1;</p>
+      <p>}else{</p>
+      <p>실행문2;</p>
+      <p>} </p>
+    </div>
+  </div>
+
+  <div class="elseif">
+    <div class="func1">
+      <p>if(){</p>
+      	<p>;</p>
+      <p>}else if(){</p>
+      	<p>;</p>
+      <p>}else if(){</p>
+      	<p>;</p>
+      <p>}else if(){</p>
+      	<p>;</p>
+      <p>}else if(){</p>
+      	<p>;</p>
+      <p>}else{</p>
+      	<p>;</p>
+      <p>}</p>
+    </div>
+    <div class="func2">
+      <p>if(조건식1){</p>
+      	<p>실행문1;</p>
+      <p>}else if(조건식2){</p>
+      	<p>실행문2;</p>
+      <p>}else if(조건식3){</p>
+      	<p>실행문3;</p>
+      <p>}else if(조건식4){</p>
+      	<p>실행문4;</p>
+      <p>}else if(조건식5){</p>
+      	<p>실행문5;</p>
+      <p>}else{</p>
+      	<p>실행문6;</p>
+      <p>}</p>
+    </div>
+  </div>
+
+  <div class="while">
+    <div class="func1">
+      <p>var =;</p>
+      <br>
+      <p>while(){</p>
+      	<p>;</p>
+      	<p>;</p>
+      <p>} </p>
+    </div>
+    <div class="func2">
+      <p>var 변수=초기값;</p>
+      <br>
+      <p>while(조건식){</p>
+      	<p>실행문;</p>
+      	<p>증감식;</p>
+      <p>} </p>
+    </div>
+  </div>
+
+  <div class="switch">
+    <div class="func1">
+      <p>var =;</p>
+      <p>switch(){</p>
+      	<p>case :;</p>
+      	<p>break;</p>
+      	<p>case :;</p>
+      	<p>break;</p>
+      	<p>case :;</p>
+      	<p>break;</p>
+      	<p>case :;</p>
+      	<p>break;</p>
+        <br>
+      	<p>default:;</p>
+      <p>} </p>
+    </div>
+    <div class="func2">
+      <p>var 변수=초기값;</p>
+      <p>switch(변수){</p>
+      	<p>case 값1:실행문1;</p>
+      	<p>break;</p>
+      	<p>case 값2:실행문2;</p>
+      	<p>break;</p>
+      	<p>case 값3:실행문3;</p>
+      	<p>break;</p>
+      	<p>case 값4:실행문4;</p>
+      	<p>break;</p>
+        <br>
+      	<p>default:실행문5;</p>
+      <p>} </p>
+    </div>
+  </div>
+
+  <div class="for">
+    <div class="func1">
+      <p>for(;;){</p>
+      	<p>;</p>
+      <p>} </p>
+    </div>
+    <div class="func2">
+      <p>for(초기값;조건식;증감식){</p>
+      	<p>실행문;</p>
+      <p>} </p>
+    </div>
+  </div>
+
+  <div class="fors">
+    <div class="func1">
+      <p>for(;;){</p>
+        <p>for(;;){</p>
+      	<p>;</p>
+        <p>} </p>
+      <p>} </p>
+    </div>
+    <div class="func2">
+      <p>for(초기값;조건식;증감식){</p>
+        <p>for(초기값;조건식;증감식){</p>
+      	<p>실행문;</p>
+        <p>} </p>
+      <p>} </p>
+    </div>
+  </div>
+
+</div>
+</div>
+</section>
+<!-- --------- Footer --------- -->
+<footer id="footer">
+
+
+
+</footer>
+
+<!-- Script Source -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="js/js.js"></script></body>
+</html>
